@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MavunoLoop – Sell before it spoils</title>
+  <meta name="description" content="MavunoLoop connects Kenyan farmers, buyers and cooperatives for produce and farm residues.">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bitter:wght@600;800&family=Public+Sans:wght@400;600&display=swap">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header id="top"></header>
+  <main id="app" class="wrap"></main>
+  <footer class="wrap muted">MavunoLoop · Hackathon MVP · Demo data is illustrative. Freshness warnings are estimates, not confirmed spoilage.</footer>
+  <div id="toast" role="status"></div>
+
+  <!-- Load order matters: each file adds to the global ML object -->
+  <script src="js/data.js"></script>
+  <script src="js/store.js"></script>
+  <script src="js/rules.js"></script>
+  <script src="js/ui.js"></script>
+  <script src="js/pages-public.js"></script>
+  <script src="js/pages-farmer.js"></script>
+  <script src="js/pages-buyer.js"></script>
+  <script src="js/pages-admin.js"></script>
+  <script src="js/pages-ussd.js"></script>
+  <script src="js/chat.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
